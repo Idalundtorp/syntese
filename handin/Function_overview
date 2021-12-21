@@ -1,0 +1,20 @@
+CNN_network: Main script where the data is loaded, the model is trained and tested.
+convert_dist: convert distance to km
+Data_augmentation: Do data augmentation
+Data_pre_processing: All pre-processing steps (convertions, gridsize changes, resolution changes and normalization)
+faster_mode_1d: function which takes mode of array
+get_nc_CNN_data: load CNN data
+Get_weights: distribution based class weights using median frequency
+Get_weights_org: distribution based class weights using sklearn
+Main_train_loop: training loop
+Normalize_arr: function to normalize arrays
+plot_histograms_labels_distribution: plot data imbalance
+plot_post_processed_data: plot land and SIC layers after change of grid and resolution
+Plots_report_pre_processing: plot data prior to processing of grid and resolution
+ReadAMSR2Data: read original data (after removing SAR layers)
+UNET_corr: implementation of UNET model
+UNET_functions: functions called in the UNET model
+up_down_blocks_UNET_to: up and down blocks in the UNET
+weights_comparison: plots comparing the two weight types.
+extract_data_subset: extract relevant layers of zip file.
+
